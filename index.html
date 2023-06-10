@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chuck-A-Luck</title>
+  <link rel="stylesheet" href="design.css">
+</head>
+<body>
+  <header>
+    <h1>Chuck-A-Luck</h1>
+    <a href="rules.html" target="_blank" class="info">ℹ️<span class="info-text">Hover for Rules</span></a>
+  </header>
+
+  <div class="box">
+    <div class="attempts">Attempts: 0/10</div>
+    <div class="center-container">
+      <div class="wrong">Wrong Attempts: 0/10</div>
+      <div class="lucky">Lucky Attempts: 0/10</div>
+    </div>
+    <div class="number"></div>
+    <div class="choose">Choose a Card</div>
+        <div class="choices">
+            <div class="choice">
+              <span class="hidden choice-text"></span>
+              <div class="hidden-number"></div>
+            </div>
+            <div class="choice">
+              <span class="hidden choice-text"></span>
+              <div class="hidden-number"></div>
+            </div>
+            <div class="choice">
+              <span class="hidden choice-text"></span>
+              <div class="hidden-number"></div>
+            </div>
+          </div>
+    <div class="buttons">
+      <div class="start" onclick="startGame()">Test Your Luck</div>
+      <div class="nextquest" style="display: none;" onclick="nextQuest()">Next</div>
+      <div class="reset" style="display: none;" onclick="reset()">Reset</div>
+    </div>
+  </div>
+
+  <footer>
+    <p class="footer-text">Flipshope-Assignment</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
